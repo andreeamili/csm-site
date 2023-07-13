@@ -1,0 +1,135 @@
+.contact *{
+    box-sizing: border-box;
+    margin: 0;
+}
+.contact-image{
+    position: absolute;
+    margin-top: 0%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+  
+  }
+
+  .contact-image img {
+    max-width: 100%;
+    padding-top: 0%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .contact{
+    background-Color: rgb(214, 214, 214);
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-Direction: column;
+    justify-Content: center;
+    align-Items: center;
+  }
+
+  .table-wrapper {
+    display: table;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .text-header{
+    padding-top: 5%;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0.2em;
+    
+  }
+
+.contact-information{
+    text-align: left;
+    padding-left: 5%;
+    font-family: "Arial",sans-serif;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    letter-spacing: 0.2em;
+}
+.contact-information-second{
+    text-align: left;
+    padding-left: 5%;
+    font-family: "Arial",sans-serif;
+    color: rgb(126, 131, 135);
+}
+.adress{
+    text-align: left;
+    padding-left: 5% !important;
+    font-family: "Arial",sans-serif;
+    color: rgb(126, 131, 135);
+    padding: 20px;
+    
+}
+.contact-footer{
+  text-align: center;
+  width: 100%;
+  font-size: 1,5em;
+ color: #000000;
+ background-color:rgb(202, 202, 202) ;
+}
+.top-contact{
+padding-top: 3%;
+}
+.down-contact{
+padding-bottom: 3%;
+}
+
+
+  @media (max-width: 768px) {
+    .text-header {
+      font-size: 30px;
+    }
+    .contact-information {
+        font-size: 15px;
+      }
+      .contact-information-second {
+        font-size: 10px;
+      }
+      .adress{
+        font-size: 10px;
+      }
+      .table-wrapper{
+        height: 500px;
+      }
+      .contact-footer{
+        font-size: 1vh;
+      }
+      
+}
+@media (min-width: 576px) {
+    .text-header {
+      font-size: 50px;
+    }
+    .contact-information {
+        font-size: 30px;
+      }
+      .contact-information-second {
+        font-size: 20px;
+      }
+      .adress{
+        font-size: 20px;
+      }
+      .contact{
+        height: 900px;
+      }
+}
+.frame {
+    width: 60%;
+    height: 250px;
+  }
+
+
+
